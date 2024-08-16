@@ -94,6 +94,10 @@ article{
     padding: 20px;
     border-radius: 10px;
 }
+form button {
+    margin: auto;
+    text-align: center;
+}
 
 footer{
     background-color: #000000;
