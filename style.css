@@ -1,110 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
-    font-family: 'Roboto', sans-serif;
-    color:#490000;
-    
-}
- 
-.conteiner{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+    background-color: rgb(69, 69, 69);
+    font: 13pt Arial;
 }
 
-header{
-    max-width: 1100px;
-    margin: auto;
-    border-radius: 20px 20px 0px 0px;
-    
-}
-header h1{
-    padding-left: 55px;
-}
-header nav li{
-    display: inline;
-    margin-left: 16px;
-    font-size: 20px;
-    padding-right: 40px;
-}
-
-header nav li a{
-    color:#c01a1a;
-    text-decoration: none;
-    padding: 5px;
-    
-}
-
-header nav li a:hover{
-    background-color: #c01a1a;
-    border-radius: 10px ;
-    color: #000000;
-    transition: 1s;
-}
-
-
-
-header{
-    padding: 16px 0;
-    background-color:#000000 ;
-    color:#c01a1a;
-}
-
-header .conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section img {
-    display: block;
-    width: 400px;
-    height: 400px;
-    margin: auto;
-}
-
-section h1{
-    text-align: center;
-    margin:30px;
-}
-
-section p {
-    max-width: 400px;
-    text-align: center;
-    margin: auto;
-    padding: 15px;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #000000;
-    color: black;
-    font-weight: bolder;
-    max-width: 1100px;
-    margin: auto;
-}
-
-article{
-    margin:20px auto;
-    background-color: #c01a1a;
+main {
+    background-color: white;
+    width: 500px;
     padding: 20px;
+    margin: auto;
+    margin-top: 30vh;
     border-radius: 10px;
-}
-form button {
-    margin: auto;
-    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
 }
 
-footer{
-    background-color: #000000;
-    color: #c01a1a;
-    padding: 20px;
-    text-align: center;
-    width: 1100px;
-    margin: auto;
-    border-radius: 0px 0px 20px 20px ;
+h1 {
+    color: darkgoldenrod;
+}
+
+h2 {
+    color: rgb(125, 92, 8);
+}
+
+a, a:visited {
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: none;
 }
