@@ -72,7 +72,7 @@ section{
     margin: auto;
     overflow: hidden;
     width: 500px;
-    height: 800px;
+    height: 850px;
     background-color: #3a86f8;
     border-radius: 20px;
     margin-bottom: 50px;
@@ -163,8 +163,6 @@ menu{
         text-decoration: none;
         text-align: center;
         color: white;
-    }
-    
-    
+    } 
 
 }
