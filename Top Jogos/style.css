@@ -4,7 +4,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -54,9 +53,9 @@ a{
     padding: 10px;
     font-size: 1.5em;
     margin-top: auto;
-    
-    
+    font-family: "Tektur", sans-serif;    
 }
+
 li:hover {
     background-color: #001ea3;
     transition:  0.5s;
@@ -102,10 +101,13 @@ h1{
     font-family: "Tektur", sans-serif;
     margin-bottom: 40px;
     font-size: 4em;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
 
 menu{
     display: none;
+    
 }
 
 
