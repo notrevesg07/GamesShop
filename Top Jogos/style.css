@@ -13,10 +13,7 @@ body{
     height: 100%;
     width: 100%;
 }
-main{
-    height: 98vh;
-    width: 98vw;
-}
+
 
 header{
     background-color: black ;
@@ -107,7 +104,10 @@ ul {
     list-style-type: none;
 }
 
-
+footer{
+    display: block;
+    vertical-align: bottom;
+}
 
 menu {
     display: none;
