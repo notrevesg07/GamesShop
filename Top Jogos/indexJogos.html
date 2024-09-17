@@ -4,33 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="media/controlador.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Top Jogos</title>
-    <style>
-        body{
-        background-image: linear-gradient( to top ));
-        }
-    </style>
+    <title>Top 12 Jogos</title>
 </head>
-<body>
+<body onresize="clickMenu2()">
     <header>
-        <ul>
-            <li><a href="#TheWitcher3">1º lugar</a></li>
-            <li><a href="#ResidentEvil4Remake">2º lugar</a></li>
-            <li><a href="#GhostofTsushima">3º lugar</a></li>
-            <li><a href="#ResidentEvil2Remake">4º lugar</a></li>
-            <li><a href="#Spider-man">5º lugar</a></li>
-            <li><a href="#InfamousSecondSon">6º lugar</a></li>
-            <li><a href="#GodofWarRagnarok">7º lugar</a></li>
-            <li><a href="#Assassin">8º lugar</a></li>
-            <li><a href="#BlackOps3">9º lugar</a></li>
-            <li><a href="#FarCry4">10º lugar</a></li>
-            <li><a href="#DeadSpace">11º lugar</a></li>
-            <li><a href="#HogwartsLegacy">12º lugar</a></li>
-        </ul>
+        <i id="burguer" class="material-icons" onclick="clickMenu1()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#TheWitcher3">1º lugar</a></li>
+                <li><a href="#ResidentEvil4Remake">2º lugar</a></li>
+                <li><a href="#GhostofTsushima">3º lugar</a></li>
+                <li><a href="#ResidentEvil2Remake">4º lugar</a></li>
+                <li><a href="#Spider-man">5º lugar</a></li>
+                <li><a href="#InfamousSecondSon">6º lugar</a></li>
+                <li><a href="#GodofWarRagnarok">7º lugar</a></li>
+                <li><a href="#Assassin">8º lugar</a></li>
+                <li><a href="#BlackOps3">9º lugar</a></li>
+                <li><a href="#FarCry4">10º lugar</a></li>
+                <li><a href="#DeadSpace">11º lugar</a></li>
+                <li><a href="#HogwartsLegacy">12º lugar</a></li>
+            </ul>
+        </menu>
     </header>
     <main>
-        <h1>Top 10 Jogos Favoritos</h1>
+        <h1>Top 12 Jogos Favoritos</h1>
         <section id="TheWitcher3">
             <h2>1º lugar</h2>
             <img src="media/TheWitcher3.png" alt="TheWitcher3">
@@ -105,7 +104,24 @@
         </section>
     </main>
     <footer>
-        <h4><i>Site feito por </i><strong>Everton Mendonça da silva <i></i></strong></h4>
+        <h4><i>Meu Top 12 Jogos Favoritos Site feito por </i><strong>Everton Mendonça da silva <i></i></strong></h4>
     </footer>
+    <script>
+        function clickMenu2() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu1() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
