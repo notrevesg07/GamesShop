@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Tektur:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Silkscreen:wght@400;700&display=swap');
 *{
     margin: 0px;
@@ -99,7 +99,7 @@ h2{
 }
 
 h1{
-    font-family: "Ribeye Marrow", serif;
+    font-family: "Tektur", sans-serif;
     margin-bottom: 40px;
     font-size: 4em;
 }
@@ -110,7 +110,7 @@ menu{
 
 @media screen and (max-width:600px){
     header{
-        max-width: 400px;
+        width: 300px;
     }
 
     section{
