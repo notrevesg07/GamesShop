@@ -108,6 +108,12 @@ menu{
     display: none;
 }
 
+
+@media screen and (min-width: 601px) {
+    menu{
+        display: block;
+    }
+}
 @media screen and (max-width:600px){
     header{
         width: 350px;
