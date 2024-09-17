@@ -104,10 +104,6 @@ h1{
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
 
-i{
-
-}
-
 menu{
     display: none;
     
@@ -117,6 +113,9 @@ menu{
 @media screen and (min-width: 601px) {
     menu{
         display: block;
+    }
+    #burguer {
+        display: none;
     }
 }
 @media screen and (max-width:600px){
